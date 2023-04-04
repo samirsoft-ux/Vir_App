@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href='index.css' rel='stylesheet'>
+	<title>Sample SPA</title>
+</head>
+<body>
+	<div class="wrapper">
+		<span><b>Asistente Virtual</b></span>
+	</div>
+
+    <div id="welcome">
+        <div class="welcome-display">
+            <div>
+                <img alt="App ID Logo" class="logo-icon" src="images/app_id_icon.svg">
+                <p>
+                    Bienvenido a tu<br>
+                    Asistente Virtual<br>
+                </p>
+            </div>
+            <button id="login" class="hidden">Login</button>
+            <div id="error"></div>
+        </div>
+        <div class="hintSection">
+            <div class="flex-bottom"><img alt="hint image" id="hintIcon" src="images/hint_icon.svg"></div>
+        <div class="flex-bottom">
+                Pista: Da click<br>
+                en el botón de login para que<br>
+                aparezca el App ID login Pop-up.
+            </div>
+        </div>
+    </div>
+    
+	<div id="afterLogin" class="hidden">
+		
+        <div class="imgDiv" >
+            <img src="images/ibmlogo.jpg" alt="ibm logo">
+        </div>
+
+        <div class="welcome-display">
+            <p id="welcomeNameID"></p>   
+		</div>
+	 </div>
+
+	<script src="main.js"></script>
+</body>
+</html>
