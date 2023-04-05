@@ -1,4 +1,0 @@
-application-name: frontend
-id: "20200630123935.78196447"
-project-name: vir-frontend
-stack: docker.io/appsody/nodejs-express:0.4
