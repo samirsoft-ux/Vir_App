@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "webpack && cp dist/main.js public/main.js",
-    "start": "npm run postinstall && ws --directory public --hostname https://virtual-assistant-13ut.onrender.com",
-    "build": "webpack --mode production"
+    "start": "npm run postinstall && ws --directory public"
   },
   "dependencies": {
     "ibmcloud-appid-js": "^0.4.3"
