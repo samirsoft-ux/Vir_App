@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "webpack && cp dist/main.js public/main.js",
-    "start": "npm run postinstall && ws --directory public",
+    "start": "npm run postinstall && ws --directory public --hostname https://vir-test.onrender.com",
     "build": "webpack --mode production"
   },
   "dependencies": {
